@@ -1,4 +1,8 @@
 class FitnessTrackerLogic:
+    """
+    Core logic for managing fitness workouts.
+    """
+
     def __init__(self):
         self.workouts = []
 
@@ -13,3 +17,6 @@ class FitnessTrackerLogic:
 
     def get_workouts(self):
         return self.workouts
+
+    def clear_workouts(self):
+        self.workouts = []
