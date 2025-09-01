@@ -50,7 +50,7 @@ This will execute all unit tests for the core logic.
 To build and run the app in Docker:
 ```bash
 docker build -t aceest-fitness-app .
-docker run -p 5000:5000 aceest-fitness-app
+docker run -p 5001:5001 aceest-fitness-app
 ```
 
 ## CI/CD Pipeline
