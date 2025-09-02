@@ -13,18 +13,24 @@ This is a simple fitness tracker web application built using Flask, allowing use
 
 ## How to Run Locally
 
-### 1. Install dependencies
+### 1. Clone the repository
+```bash
+git clone https://github.com/nossamyaswanth/Tkinter-fitness-tracker-project.git
+cd Tkinter-fitness-tracker-project
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the Flask application
+### 3. Run the Flask application
 ```bash
 python app.py
 ```
 The app will be available at `http://localhost:5000`.
 
-### 3. Run tests locally
+### 4. Run tests locally
 ```bash
 pytest test_tracker_logic.py
 ```
